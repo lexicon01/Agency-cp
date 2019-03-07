@@ -2,6 +2,6 @@
 
 $(window).on('load', function () {
     $('#status').delay().fadeOut();
-    $('#preloader').delay().fadeOut();
+    $('#preloader').delay().fadeOut('slow');
 
 });
