@@ -183,6 +183,11 @@ section {
 .content-box-lg {
     padding: 120px 0;
 }
+
+.content-box-md {
+    padding: 100px 0;
+}
+
 /* End of Content box */
 
 /* Vertical headings*/
@@ -191,13 +196,14 @@ section {
     font-weight: 14px;
     text-transform: uppercase;
     word-spacing: 9px;
-    display: inline-block; /* you tried doing this but it didnt work because of this.. has to be set inline-block to fix width/spacing of the property*/
+    display: inline-block;
+    /* you tried doing this but it didnt work because of this.. has to be set inline-block to fix width/spacing of the property*/
     transform: rotate(-90deg);
     position: relative;
     top: 60px;
     left: -85px;
-    
-    
+
+
 }
 
 .vertical-heading h2 {
@@ -206,6 +212,7 @@ section {
     font-weight: 100;
     line-height: 45px;
 }
+
 /* End of Vertical headings*/
 
 /* About 01 */
@@ -226,10 +233,69 @@ section {
 #about-bottom img {
     margin: 0 auto;
 }
+
 /* About 01 */
 
 /* About 02 */
 #about-02 {
     background-color: #f4f4f4;
 }
+
+.about-item {
+    background-color: #fff;
+    padding: 80px 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.about-item i {
+    font-size: 42px;
+    margin: 0;
+}
+
+.about-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-item hr {
+    height: 3px;
+    width: 45px;
+    background-color: #f4c613;
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p {
+    margin-top: 20px;
+}
+
+
+/* Hover state */
+.about-item:hover {
+    background-color: #f4c613;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+
+.about-item:hover hr {
+    background-color: #fff;
+}
+
+.about-item:hover i {
+    transform: translateY(-20px);
+}
+
+/* Smooth transition */
+.about-item,
+.about-item i,
+.about-item hr {
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
 /* About 02 */
