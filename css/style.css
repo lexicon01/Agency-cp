@@ -178,3 +178,52 @@ section {
 
 /* End of Arrow Down */
 /* End of Home */
+
+/* Content box */
+.content-box-lg {
+    padding: 120px 0;
+}
+/* End of Content box */
+
+/* Vertical headings*/
+.vertical-heading h5 {
+    color: #f4c613;
+    font-weight: 14px;
+    text-transform: uppercase;
+    word-spacing: 9px;
+    display: inline-block; /* you tried doing this but it didnt work because of this.. has to be set inline-block to fix width/spacing of the property*/
+    transform: rotate(-90deg);
+    position: relative;
+    top: 60px;
+    left: -85px;
+    
+    
+}
+
+.vertical-heading h2 {
+    margin: 0 0 0 35px;
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 45px;
+}
+/* End of Vertical headings*/
+
+/* About 01 */
+
+.content-box-lg {
+    padding: 120px 0;
+}
+
+
+#about-right p:first-child {
+    margin-bottom: 30px;
+}
+
+#about-bottom {
+    margin-top: 60px;
+}
+
+#about-bottom img {
+    margin: 0 auto;
+}
+/* About 01 */
