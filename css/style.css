@@ -3,13 +3,18 @@ html,
 body {
     height: 100%;
     font-size: 62.5%; }
-    @media only screen and (max-width: 75em) {
-        html {
-            font-size: 50%; }
-        }
 
 }
 
+/**********************************************/
+/* media query for body, html font-sizes */
+
+ @media only screen and (max-width: 75em) {
+        html {
+            font-size: 40%; }
+        }
+
+/********************************************/
 body {
     color: #212226;
 
@@ -213,7 +218,7 @@ section {
 }
 
 .vertical-heading h2 {
-    margin: 0 0 0 35px;
+    margin: 0 0 0 3.5rem;
     font-size: 42px;
     font-weight: 100;
     line-height: 45px;
@@ -334,6 +339,66 @@ section {
     padding: 7rem 0;
 }
 
+/*******************************/
+/* team-social-info padding*/
+
+  .owl-theme .owl-nav {
+            font-size: 3rem;
+            color: #212226;
+        }
+
+
+@media (max-width: 991px) {
+        .team-member-info {
+            padding: 3rem 0;
+            
+        }
+        .owl-theme .owl-nav {
+            font-size: 3rem;
+            color: #212226;
+        }
+      .vertical-heading h2 { /* Meet out team heading fix xm size*/
+            margin-left: 3.5rem;
+        }
+    }
+
+@media (max-width: 767.98px) {
+        .team-member-info {
+            padding: 7rem 0;
+            
+        }
+        .owl-theme .owl-nav {
+            color: #212226;
+        }
+        .vertical-heading h2 { /* Meet out team heading fix xm size*/
+            margin-left: 2rem;
+        }
+    }
+
+@media (max-width: 575.98px) {
+        .team-member-info {
+            padding: 4rem 0;
+            
+        }
+        .owl-theme .owl-nav {
+            font-size: 2rem;
+            color: #212226;
+        }
+        .vertical-heading h2 { /* Meet out team heading fix xm size*/
+            margin-left: 2rem;
+        }
+    }
+@media (max-width: 320px) {
+        .team-member-info {
+            padding: 1rem 0;
+            
+        }
+     
+    }
+
+
+/*******************************/
+
 .team-member-info h6 {
     color: #f4c613;
     font-size: 16px;
@@ -356,6 +421,8 @@ ul.social-list {
     padding: 0;
     margin-top: 2rem;
 }
+
+
 ul.social-list li {
     display: inline-block;
     padding: 0;
@@ -368,15 +435,28 @@ ul.social-list li a {
     line-height: 3.5rem;
     color: #fff;
     border-radius: 50%;
+    -webkit-transition: all .4s linear; 
+    transition: all .4s linear;
 }
 ul.social-list li:nth-child(1) a:hover {
     background: #3b5998;
     border-color: transparent; /* this takes away the border when you hover over */
 }
+ul.social-list li:nth-child(2) a:hover {
+    background: #00aced;
+    border-color: transparent; /* this takes away the border when you hover over */
+}
+ul.social-list li:nth-child(3) a:hover {
+    background: #dd4b39;
+    border-color: transparent; /* this takes away the border when you hover over */
+}
+
 
 /* End of Social Icons */
 
+/* Slider Buttons */
 
+/* Slider Buttons*/
 
 
 
