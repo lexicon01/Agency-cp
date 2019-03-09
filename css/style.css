@@ -299,3 +299,7 @@ section {
 }
 
 /* About 02 */
+
+.social-list; {
+    list-style: inline;
+}
