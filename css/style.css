@@ -2,6 +2,12 @@
 html,
 body {
     height: 100%;
+    font-size: 62.5%; }
+    @media only screen and (max-width: 75em) {
+        html {
+            font-size: 50%; }
+        }
+
 }
 
 body {
@@ -20,9 +26,9 @@ h6 {
 
 p {
     font-family: "Open Sans", sans-serif;
-    font-size: 13px;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 2.5rem;
 
 }
 
@@ -201,8 +207,8 @@ section {
     transform: rotate(-90deg);
     position: relative;
     top: 60px;
-    left: -85px;
-
+    left: -5rem;
+    font-size: 1.5rem;
 
 }
 
@@ -300,6 +306,82 @@ section {
 
 /* About 02 */
 
-.social-list; {
-    list-style: inline;
+/* Team */
+#team-left .vertical-heading {
+    min-height: 135px;
 }
+
+/* .team-member changed inside script.js breaks if done here (margin: 8px) */
+.team-member {
+    position: relative;
+}
+
+.team-member-overlay {
+    background: rgba(33,34,38, .9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 300ms linear;
+}
+
+.team-member-info {
+    width: 100%;
+    height: 100%;
+    padding: 7rem 0;
+}
+
+.team-member-info h6 {
+    color: #f4c613;
+    font-size: 16px;
+    margin: 0;
+}
+
+.team-member-info p {
+    color: #fff;
+}
+
+.team-member:hover .team-member-overlay {
+    opacity: 1;
+}
+
+/* End of team */
+
+/* Social Icons */
+
+ul.social-list {
+    padding: 0;
+    margin-top: 2rem;
+}
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
+ul.social-list li a {
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    color: #fff;
+    border-radius: 50%;
+}
+ul.social-list li:nth-child(1) a:hover {
+    background: #3b5998;
+    border-color: transparent; /* this takes away the border when you hover over */
+}
+
+/* End of Social Icons */
+
+
+
+
+
+
+
+
+
+
