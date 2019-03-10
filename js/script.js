@@ -41,3 +41,15 @@ $(function () {
         offset: 'bottom-in-view'
     });
 });
+
+/*=============================================
+                responsive tabs
+/*=============================================*/
+
+$(function() {
+   
+    $("#services-tabs").responsiveTabs({
+        animation: 'slide'
+        
+    });
+});
