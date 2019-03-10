@@ -381,10 +381,10 @@ section {
         /* Meet out team heading fix xm size*/
         margin-left: 2rem;
     }
-    
+
 }
 
-@media  (max-width: 575.98px) {
+@media (max-width: 575.98px) {
     .team-member-info {
         padding: 4rem 0;
 
@@ -399,8 +399,8 @@ section {
         /* Meet out team heading fix xm size*/
         margin-left: 2rem;
     }
-    
-     ul.social-list li a i {
+
+    ul.social-list li a i {
         font-size: 1rem;
     }
 }
@@ -410,6 +410,7 @@ section {
         padding: 1rem 0;
 
     }
+
     ul.social-list li a {
         font-size: 1rem;
     }
@@ -483,7 +484,7 @@ ul.social-list li:nth-child(3) a:hover {
 /* End of Social Icons */
 
 /*********************************************************************/
-                        /*IMPORTANT PART */
+/*IMPORTANT PART */
 /*********************************************************************/
 /* Skills */
 .skill {
@@ -497,7 +498,8 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .progress {
-    height: 2.5rem; /* this make the pro/bar bigger remember son */
+    height: 2.5rem;
+    /* this make the pro/bar bigger remember son */
     border-radius: 0;
     background: #efefef;
     overflow: visible;
@@ -519,7 +521,8 @@ ul.social-list li:nth-child(3) a:hover {
     top: -47px;
 }
 
-.progress-bar span:before{/* holy shit.. this dude made an arrow...*/
+.progress-bar span:before {
+    /* holy shit.. this dude made an arrow...*/
     content: "";
     border-top: 8px solid #212226;
     border-left: 6px solid transparent;
@@ -530,7 +533,55 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 /***************************************************************/
-                                /* Skill/
+/* End of Skill/
+/*************************************************************/
+
+/***************************************************************/
+/* Statement
 /*************************************************************/
 
 
+#statement {
+    background: url(../img/solo-images/tech/tech-quote.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*
+    Also short hand 
+    background: rul(img) no-repeat fixed center;
+                    ** / cover ** is not covered in safari
+    so add background-size: cover; aschea we out here kit
+    */
+}
+
+#statement .content-box-lg {
+    background: rgba(0, 0, 0, .3);
+}
+
+#tech-statement h3 {
+    color: #fff;
+    font-size: 2.8rem;
+    line-height: 4.5rem;
+
+}
+
+#tech-statement p {
+    font-size: 1.4rem;
+    color: #f4c613;
+    font-family: "Raleway", sans-serif;
+    margin-top: .8rem;
+}
+
+
+
+
+
+
+
+
+
+
+/***************************************************************/
+/* End of Statement
+/*************************************************************/
