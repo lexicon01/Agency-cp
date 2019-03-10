@@ -381,9 +381,10 @@ section {
         /* Meet out team heading fix xm size*/
         margin-left: 2rem;
     }
+    
 }
 
-@media (max-width: 575.98px) {
+@media  (max-width: 575.98px) {
     .team-member-info {
         padding: 4rem 0;
 
@@ -398,12 +399,19 @@ section {
         /* Meet out team heading fix xm size*/
         margin-left: 2rem;
     }
+    
+     ul.social-list li a i {
+        font-size: 1rem;
+    }
 }
 
-@media (max-width: 320px) {
+@media only (max-width: 320px) {
     .team-member-info {
         padding: 1rem 0;
 
+    }
+    ul.social-list li a {
+        font-size: 1rem;
     }
 
 }
@@ -443,9 +451,10 @@ ul.social-list li {
 ul.social-list li a {
     border: 1px solid #fff;
     display: inline-block;
+    font-size: 1.5rem;
     width: 3.5rem;
     height: 3.5rem;
-    line-height: 3.5rem;
+    line-height: 3rem;
     color: #fff;
     border-radius: 50%;
     -webkit-transition: all .4s linear;
@@ -473,6 +482,55 @@ ul.social-list li:nth-child(3) a:hover {
 
 /* End of Social Icons */
 
-/* Slider Buttons */
+/*********************************************************************/
+                        /*IMPORTANT PART */
+/*********************************************************************/
+/* Skills */
+.skill {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
 
-/* Slider Buttons*/
+.skill h4 {
+    line-height: 5.2rem;
+    font-weight: normal;
+}
+
+.progress {
+    height: 2.5rem; /* this make the pro/bar bigger remember son */
+    border-radius: 0;
+    background: #efefef;
+    overflow: visible;
+}
+
+.progress-bar {
+    background-color: #f4c613;
+    position: relative;
+}
+
+.progress-bar span {
+    font-size: 1.1rem;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    background: #212226;
+    padding: 3px;
+    position: absolute;
+    left: 97%;
+    top: -47px;
+}
+
+.progress-bar span:before{/* holy shit.. this dude made an arrow...*/
+    content: "";
+    border-top: 8px solid #212226;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 23%;
+}
+
+/***************************************************************/
+                                /* Skill/
+/*************************************************************/
+
+
