@@ -2,17 +2,19 @@
 html,
 body {
     height: 100%;
-    font-size: 62.5%; }
+    font-size: 62.5%;
+}
 
 }
 
 /**********************************************/
 /* media query for body, html font-sizes */
 
- @media only screen and (max-width: 75em) {
-        html {
-            font-size: 40%; }
-        }
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 40%;
+    }
+}
 
 /********************************************/
 body {
@@ -322,7 +324,7 @@ section {
 }
 
 .team-member-overlay {
-    background: rgba(33,34,38, .9);
+    background: rgba(33, 34, 38, .9);
     position: absolute;
     top: 0;
     left: 0;
@@ -342,59 +344,69 @@ section {
 /*******************************/
 /* team-social-info padding*/
 
-  .owl-theme .owl-nav {
-            font-size: 3rem;
-            color: #212226;
-        }
+.owl-theme .owl-nav {
+    font-size: 3rem;
+    color: #212226;
+}
 
 
 @media (max-width: 991px) {
-        .team-member-info {
-            padding: 3rem 0;
-            
-        }
-        .owl-theme .owl-nav {
-            font-size: 3rem;
-            color: #212226;
-        }
-      .vertical-heading h2 { /* Meet out team heading fix xm size*/
-            margin-left: 3.5rem;
-        }
+    .team-member-info {
+        padding: 3rem 0;
+
     }
+
+    .owl-theme .owl-nav {
+        font-size: 3rem;
+        color: #212226;
+    }
+
+    .vertical-heading h2 {
+        /* Meet out team heading fix xm size*/
+        margin-left: 3.5rem;
+    }
+}
 
 @media (max-width: 767.98px) {
-        .team-member-info {
-            padding: 7rem 0;
-            
-        }
-        .owl-theme .owl-nav {
-            color: #212226;
-        }
-        .vertical-heading h2 { /* Meet out team heading fix xm size*/
-            margin-left: 2rem;
-        }
+    .team-member-info {
+        padding: 7rem 0;
+
     }
 
+    .owl-theme .owl-nav {
+        color: #212226;
+    }
+
+    .vertical-heading h2 {
+        /* Meet out team heading fix xm size*/
+        margin-left: 2rem;
+    }
+}
+
 @media (max-width: 575.98px) {
-        .team-member-info {
-            padding: 4rem 0;
-            
-        }
-        .owl-theme .owl-nav {
-            font-size: 2rem;
-            color: #212226;
-        }
-        .vertical-heading h2 { /* Meet out team heading fix xm size*/
-            margin-left: 2rem;
-        }
+    .team-member-info {
+        padding: 4rem 0;
+
     }
+
+    .owl-theme .owl-nav {
+        font-size: 2rem;
+        color: #212226;
+    }
+
+    .vertical-heading h2 {
+        /* Meet out team heading fix xm size*/
+        margin-left: 2rem;
+    }
+}
+
 @media (max-width: 320px) {
-        .team-member-info {
-            padding: 1rem 0;
-            
-        }
-     
+    .team-member-info {
+        padding: 1rem 0;
+
     }
+
+}
 
 
 /*******************************/
@@ -427,6 +439,7 @@ ul.social-list li {
     display: inline-block;
     padding: 0;
 }
+
 ul.social-list li a {
     border: 1px solid #fff;
     display: inline-block;
@@ -435,20 +448,26 @@ ul.social-list li a {
     line-height: 3.5rem;
     color: #fff;
     border-radius: 50%;
-    -webkit-transition: all .4s linear; 
+    -webkit-transition: all .4s linear;
     transition: all .4s linear;
 }
+
 ul.social-list li:nth-child(1) a:hover {
     background: #3b5998;
-    border-color: transparent; /* this takes away the border when you hover over */
+    border-color: transparent;
+    /* this takes away the border when you hover over */
 }
+
 ul.social-list li:nth-child(2) a:hover {
     background: #00aced;
-    border-color: transparent; /* this takes away the border when you hover over */
+    border-color: transparent;
+    /* this takes away the border when you hover over */
 }
+
 ul.social-list li:nth-child(3) a:hover {
     background: #dd4b39;
-    border-color: transparent; /* this takes away the border when you hover over */
+    border-color: transparent;
+    /* this takes away the border when you hover over */
 }
 
 
@@ -457,11 +476,3 @@ ul.social-list li:nth-child(3) a:hover {
 /* Slider Buttons */
 
 /* Slider Buttons*/
-
-
-
-
-
-
-
-
