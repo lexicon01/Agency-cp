@@ -167,6 +167,20 @@ section {
     border: 1px solid #f4c613;
 }
 
+.btn-yellow {
+    color: #fff;
+    border: 1px solid #f4c613;
+    background-color: #f4c613;
+
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+
 /*End of Button*/
 
 /* Arrow Down */
@@ -619,9 +633,9 @@ ul.social-list li:nth-child(3) a:hover {
     transition: all .3s linear;
 }
 
-.service:hover .icon{
+.service:hover .icon {
     color: #f4c613;
-    -webkit-transform: translateX(-20px); 
+    -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
 }
 
@@ -649,4 +663,77 @@ ul.social-list li:nth-child(3) a:hover {
 /* End of Services 01
 /*************************************************************/
 
+/***************************************************************/
+/* Responsive tabs
+/*************************************************************/
 
+#services-02 {
+    background: #f4f4f4;
+}
+
+#services-tabs ul {
+    margin-bottom: 4rem;
+}
+
+#services-tabs ul li {
+    padding: 5px 3rem;
+
+}
+
+#services-tabs ul li a {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* tab active state */
+#services-tabs ul li.r-tabs-state-active a {
+    color: #f4c613;
+    font-weight: 700;
+    border-bottom: 3px solid #f4c613;
+    padding-bottom: 5px;
+    transition: color, border-bottom .3s linear;
+}
+
+.service-tab .col-md-6 {
+    padding: 0;
+
+}
+
+.service-tab img {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.service-tab .tab-bg {
+    background: #fff;
+    padding: 5.5rem 3rem;
+    min-height: 470px;
+}
+
+.service-tab h2 {
+    font-size: 4.8rem;
+    color: #bbb;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+.service-tab h3 {
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+
+}
+
+.service-tab p {
+    line-height: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+/***************************************************************/
+/* End of Responsive tabs
+/*************************************************************/
