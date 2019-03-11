@@ -742,7 +742,7 @@ ul.social-list li:nth-child(3) a:hover {
 /***************************************************************/
 /* Portfolio
 /*************************************************************/
-#container {
+#isotope-container {
   display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
