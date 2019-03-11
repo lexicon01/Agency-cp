@@ -743,7 +743,7 @@ ul.social-list li:nth-child(3) a:hover {
 /* Portfolio
 /*************************************************************/
 #isotope-container {
-  display: flex;
+    display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
 }
@@ -755,6 +755,35 @@ ul.social-list li:nth-child(3) a:hover {
 .row.no-gutters [class*=col-] {
     padding: 0;
 }
+
+#isotope-filters {
+    margin-bottom: 1rem;
+    padding: 2rem 2.5rem 2rem 0;
+}
+
+#isotope-filters button {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    box-shadow: none;
+    padding-right: 3.5rem;
+}
+
+#isotope-filters button span {
+    display: block;
+    padding-bottom: 5px;
+    transition: border-bottom .2s ease-in-out, color .3s ease-in-out;
+
+}
+
+#isotope-filters button.active span {
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
+    
+}
+
 
 /***************************************************************/
 /* End of Portfolio
