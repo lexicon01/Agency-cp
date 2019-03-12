@@ -78,3 +78,18 @@ $(window).on('load', function() {
         $(this).addClass('active');
     });
 });
+
+/*=============================================
+                magnifier
+/*=============================================*/
+
+$(function() {
+    
+    $("#portfolio-wrapper").magnificPopup({
+        delegate: 'a',// child items selector, by clicking on it opoup will something
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+});
