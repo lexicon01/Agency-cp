@@ -46,11 +46,11 @@ $(function () {
                 responsive tabs
 /*=============================================*/
 
-$(function() {
-   
+$(function () {
+
     $("#services-tabs").responsiveTabs({
         animation: 'slide'
-        
+
     });
 });
 
@@ -58,21 +58,21 @@ $(function() {
                 Portfolio
 /*=============================================*/
 
-$(window).on('load', function() {
-   // Initialize isotp
+$(window).on('load', function () {
+    // Initialize isotp
     $('#isotope-container').isotope({
-        
+
     });
     // filter items on button click
-    $('#isotope-filters').on('click', 'button', function() {
+    $('#isotope-filters').on('click', 'button', function () {
         // get filter value
         var filterValue = $(this).attr('data-filter');
-        
+
         // Filter portfollio
-          $('#isotope-container').isotope({
+        $('#isotope-container').isotope({
             filter: filterValue
-          });
-        
+        });
+
         // Active button
         $("#isotope-filters").find('.active').removeClass('active');
         $(this).addClass('active');
@@ -83,10 +83,10 @@ $(window).on('load', function() {
                 magnifier
 /*=============================================*/
 
-$(function() {
-    
+$(function () {
+
     $("#portfolio-wrapper").magnificPopup({
-        delegate: 'a',// child items selector, by clicking on it opoup will something
+        delegate: 'a', // child items selector, by clicking on it opoup will something
         type: 'image',
         gallery: {
             enabled: true

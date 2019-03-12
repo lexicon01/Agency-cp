@@ -765,6 +765,7 @@ ul.social-list li:nth-child(3) a:hover {
 #isotope-filters {
     margin-bottom: 1rem;
     padding: 2rem 2.5rem 2rem 0;
+    outline: none;
 }
 
 #isotope-filters button {
@@ -787,7 +788,7 @@ ul.social-list li:nth-child(3) a:hover {
 #isotope-filters button.active span {
     color: #f4c613;
     border-bottom: 3px solid #f4c613;
-    
+
 }
 
 /* Zoom effect */
@@ -796,11 +797,13 @@ ul.social-list li:nth-child(3) a:hover {
     width: 100%;
     height: auto;
     transition: transform .5s ease;
+
 }
 
 .portfolio-item:hover img {
     transform: scale(1.1);
     z-index: 90;
+
 }
 
 /* overlay effect */
@@ -813,6 +816,10 @@ ul.social-list li:nth-child(3) a:hover {
     right: 0;
     background: rgba(14, 14, 17, 0.5);
     cursor: zoom-in;
+    opacity: 0;
+    -webkit-transition: all .8s ease;
+    transition: all .8s ease;
+
 }
 
 /* Item Details Effect */
@@ -824,6 +831,9 @@ ul.social-list li:nth-child(3) a:hover {
     left: 0;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+
+
+
 }
 
 .portfolio-item-details h3 {
@@ -831,6 +841,10 @@ ul.social-list li:nth-child(3) a:hover {
     text-transform: uppercase;
     font-size: 3rem;
     margin: 0;
+    padding: 0;
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+    transition: all .8s;
 }
 
 .portfolio-item-details span {
@@ -839,7 +853,7 @@ ul.social-list li:nth-child(3) a:hover {
     border-bottom: 1px solid #fff;
     height: 6px;
     width: 3rem;
-    margin: 1.1rem auto .5rem auto
+    margin: 1.1rem auto .5rem auto;
 }
 
 .portfolio-item-details p {
@@ -848,8 +862,28 @@ ul.social-list li:nth-child(3) a:hover {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+    transition: all .8s;
 }
 
+
+/* Show Overlay on mouse over */
+
+.portfolio-item:hover .portfolio-item-details h3 {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-item-details p {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-item-overlay {
+    opacity: 1;
+
+}
 
 /***************************************************************/
 /* End of Portfolio
