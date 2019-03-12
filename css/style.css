@@ -817,10 +817,12 @@ ul.social-list li:nth-child(3) a:hover {
     background: rgba(14, 14, 17, 0.5);
     cursor: zoom-in;
     opacity: 0;
-    -webkit-transition: all .8s ease;
+    -webkit-transition: all .5s ease;
     transition: all .8s ease;
 
 }
+
+
 
 /* Item Details Effect */
 
@@ -844,7 +846,7 @@ ul.social-list li:nth-child(3) a:hover {
     padding: 0;
     -webkit-transform: translateY(-20%);
     transform: translateY(-20%);
-    transition: all .8s;
+    transition: all .5s;
 }
 
 .portfolio-item-details span {
@@ -853,7 +855,7 @@ ul.social-list li:nth-child(3) a:hover {
     border-bottom: 1px solid #fff;
     height: 6px;
     width: 3rem;
-    margin: 1.1rem auto .5rem auto;
+    margin: 11px auto 5px auto;
 }
 
 .portfolio-item-details p {
@@ -864,7 +866,7 @@ ul.social-list li:nth-child(3) a:hover {
     padding: 0;
     -webkit-transform: translateY(20%);
     transform: translateY(20%);
-    transition: all .8s;
+    transition: all .5s;
 }
 
 
