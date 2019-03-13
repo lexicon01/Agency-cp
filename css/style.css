@@ -742,6 +742,10 @@ ul.social-list li:nth-child(3) a:hover {
 /***************************************************************/
 /* Portfolio
 /*************************************************************/
+#portfolio {
+    padding-bottom: 16rem;
+}
+
 #isotope-container {
     display: flex;
     flex-basis: 100%;
@@ -890,5 +894,76 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 /***************************************************************/
-/* End of Portfolio
+/*  owl-carousel right n left arrow bg
 /*************************************************************/
+
+
+.owl-next:hover,
+.owl-prev:hover,
+.owl-next:visited,
+.owl-prev:visited{
+	background: #fff !important;
+    color: black !important;
+}
+
+/***************************************************************/
+/* End of owl-carousel right n left arrow bg
+/*************************************************************/
+
+/***********************separator********************/
+
+/***************************************************************/
+/* Testimonial
+/*************************************************************/
+
+#testimonials { /* Adding Over flow to visible made a cool effect.. remember*/
+    background: #f4f4f4;
+    padding-bottom: 4.5rem;
+    overflow: visible;
+}
+
+#testimonials .vertical-heading {
+    padding: 8rem 0;
+    margin-bottom: 5rem;
+}
+
+
+#testimonial-slider {
+    background: #f4c613;
+    top: -120px; /* Part of the cool effect on costomers says carousel */
+    
+}
+
+.testimonial {
+    padding: 2rem 2.4rem 0 2.4rem;   
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
