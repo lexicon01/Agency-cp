@@ -1125,3 +1125,69 @@ ul.social-list li:nth-child(3) a:hover {
 .pricing-table.black:hover {
     background: #f4c613;
 }
+
+/***************************************************************/
+/* End of Pricing
+/*************************************************************/
+
+/***************************************************************/
+/* Stats
+/*************************************************************/
+
+
+#stats {
+    background: url(../img/solo-images/stats/stats-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#stats .content-box-md {
+    background: rgba(0, 0, 0, .8);
+}
+
+#stats .vertical-heading {
+    margin-bottom: 5rem;
+}
+
+#stats .vertical-heading h2 {
+    color: #fff;
+}
+
+.stats-item {
+    background: rgba(61, 68, 68, .6);
+    border-radius: 4px;
+    min-height: 17rem;
+    padding: 2.5rem 5rem;
+    transition: all .4s linear;
+}
+
+.stats-item i {
+    font-size: 4.2rem;
+    color: #f4c613;
+    margin: 0 0 6px 0;
+    transition: all .4s linear;
+}
+
+.stats-item h3 {
+    font-size: 3.2rem;
+    color: #fff;
+    margin: 5px 0 5px 0;
+}
+
+.stats-item p {
+    color: #fff;
+    margin: 0;
+}
+
+.stats-item:hover {
+    background: #f4c613;
+}
+
+.stats-item:hover i {
+    color: #212226;
+    transform: translateY(-20px);
+}
+
