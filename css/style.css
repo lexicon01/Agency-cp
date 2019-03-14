@@ -901,9 +901,12 @@ ul.social-list li:nth-child(3) a:hover {
 .owl-next:hover,
 .owl-prev:hover,
 .owl-next:visited,
-.owl-prev:visited{
-	background: #fff !important;
+.owl-prev:visited,
+.owl-next,
+.owl-prev{
+	background: transparent !important;
     color: black !important;
+    outline: none;
 }
 
 /***************************************************************/
@@ -934,14 +937,45 @@ ul.social-list li:nth-child(3) a:hover {
     
 }
 
+.testimonial row {
+    margin: 1rem;
+}
+
 .testimonial {
     padding: 2rem 2.4rem 0 2.4rem;   
     color: #fff;
 }
 
+.testimonial h3 {
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 10px;
+}
 
+.testimonial .stars {
+    font-size: 2rem;
+    margin: 20px 0 10px 0;
+}
 
+.testimonial p {
+    line-height: normal;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
+.testimonial .author .author-name-des {
+    width: 105px;
+    text-align: left;
+}
+
+.author .author-name-des p {
+    margin: 0;
+}
+
+/***************************************************************/
+/* End of Testimonial
+/*************************************************************/
 
 
 
