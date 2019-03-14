@@ -977,7 +977,26 @@ ul.social-list li:nth-child(3) a:hover {
 /* End of Testimonial
 /*************************************************************/
 
+/***************************************************************/
+/* Pricing
+/*************************************************************/
 
+ul.package li {
+    font-size: 1.5rem;
+}
+
+.pricing-table {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0, .1);   \
+    box-shadow: 0 0 10px 0 rgba(0,0,0, .1);
+    border-radius: 6px;
+    padding: 32px 21px;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.pricing-table:hover {
+    background: #f4c613;
+}
 
 
 
