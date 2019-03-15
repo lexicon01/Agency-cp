@@ -1303,13 +1303,40 @@ ul.social-list li:nth-child(3) a:hover {
 /* Contact
 /*************************************************************/
 
-.office-details {
-    font-size: 1.5rem;
-    list-style: none;
+
+/* contact Left */
+#contact-left p {
+    margin:  25px 0px 20px 0px;
 }
 
+ul.office-details {
+    list-style: none;
+    padding: 0;
+    
+}
 
+ul.office-details li {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 12px;
+    display: flex; /*holy shit.. this fixed the align issue take off n ull see*/
+    
+}
 
+ul.office-details li i {
+    font-size: 20px;
+    width: 45px; /*this caused an alignment issue!! */
+}
+
+#contact-left ul.social-list li a {
+    color: #212226;
+    border: 1px solid #212226;
+    text-align: center;
+}
+
+#contact-left ul.social-list li a:hover {
+    color: #fff;
+    border-color: transparent;
+}
 
 
 /***************************************************************/
