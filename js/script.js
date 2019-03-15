@@ -115,9 +115,34 @@ $(function () {
 /*=============================================
                 Counter
 /*=============================================*/
-$(function() {
+$(function () {
     $('.counter').counterUp({
-        delay:10,
+        delay: 10,
         time: 2000
     });
 });
+
+/*=============================================
+               End of  Counter
+/*=============================================*/
+
+/*=============================================
+                Clients
+/*=============================================*/
+$(function () {
+    $("#clients-list").owlCarousel({
+        items: 6,
+        autoplay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        margin: 15,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+    });
+});
+
+/*=============================================
+               End of Clients
+/*=============================================*/

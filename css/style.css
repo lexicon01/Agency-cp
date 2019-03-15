@@ -222,7 +222,9 @@ section {
 /* End of Arrow Down */
 /* End of Home */
 
-/* Content box */
+/***************************************************
+/* Content box
+****************************************************/
 .content-box-lg {
     padding: 120px 0;
 }
@@ -231,7 +233,13 @@ section {
     padding: 100px 0;
 }
 
-/* End of Content box */
+.content-box-sm {
+    padding: 90px 0;
+}
+
+/***************************************************
+/* End of content box
+****************************************************/
 
 /***************************************************
 /* Vertical headings
@@ -1191,3 +1199,32 @@ ul.social-list li:nth-child(3) a:hover {
     transform: translateY(-20px);
 }
 
+
+/***************************************************************/
+/* End of Stats
+/*************************************************************/
+
+
+/***************************************************************/
+/* Clients
+/*************************************************************/
+
+#clients .horizontal-heading {
+    margin-bottom: 3rem;
+}
+
+#clients-list {
+    padding: 4.5rem 0 0 0;
+}
+
+.client {
+    padding: 0 10px;
+    max-width: 15rem;
+    margin: 0 auto;
+    line-height: 100px;
+    /* using this along with display inline-block vertially alines the imgs*/
+}
+
+.client img {
+    display: inline-block !important;
+}
