@@ -1250,16 +1250,17 @@ ul.social-list li:nth-child(3) a:hover {
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
     border-radius: 6px;
-    
+
 }
 
 .blog-post h4 {
     line-height: 4rem;
     margin: 0;
-    
+
 }
 
-.blog-post > p { /* > indicates the first p element inside .blog-post chea */
+.blog-post > p {
+    /* > indicates the first p element inside .blog-post chea */
     line-height: 24px;
     margin: 0;
     font-weight: 300;
@@ -1274,7 +1275,7 @@ ul.social-list li:nth-child(3) a:hover {
     font-size: 12px;
     font-weight: 500;
     text-decoration: none;
-    transition: all  .4s linear;
+    transition: all .4s linear;
 }
 
 .blog-post a:hover {
@@ -1304,27 +1305,31 @@ ul.social-list li:nth-child(3) a:hover {
 /*************************************************************/
 
 
+
+
 /* contact Left */
 #contact-left p {
-    margin:  25px 0px 20px 0px;
+    margin: 25px 0px 20px 0px;
 }
 
 ul.office-details {
     list-style: none;
     padding: 0;
-    
+
 }
 
 ul.office-details li {
     font-family: "Open Sans", sans-serif;
     margin-top: 12px;
-    display: flex; /*holy shit.. this fixed the align issue take off n ull see*/
-    
+    display: flex;
+    /*holy shit.. this fixed the align issue take off n ull see*/
+    font-size: 1.3rem;
 }
 
 ul.office-details li i {
     font-size: 20px;
-    width: 45px; /*this caused an alignment issue!! */
+    width: 45px;
+    /*this caused an alignment issue!! */
 }
 
 #contact-left ul.social-list li a {
@@ -1336,6 +1341,33 @@ ul.office-details li i {
 #contact-left ul.social-list li a:hover {
     color: #fff;
     border-color: transparent;
+}
+
+/* Contact Right */
+
+#contact-right {
+    padding: 2.5rem 3rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    border-radius: 6px;
+}
+
+#contact-right h4 {
+    font-size: 2.4rem;
+}
+
+#contact-right p {
+    margin-bottom: 2.5rem;
+}
+
+#contact-right form .form-control {
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    line-height: 24px;
+}
+
+#contact-right form textarea.form-control {
+    min-height: 165px;
 }
 
 
