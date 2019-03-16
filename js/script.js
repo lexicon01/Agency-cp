@@ -146,3 +146,20 @@ $(function () {
 /*=============================================
                End of Clients
 /*=============================================*/
+
+/*=============================================
+               Google Map
+/*=============================================*/
+
+$(window).on('load', function() {
+    // Map Variables
+    var addressString = '230 Broadway, NY, Yew York 10007, USA';
+    var myLatlng = {lat :40y.712685, lng: -74.005920};
+    
+    // 1. Render Map
+    var map = new google.maps.Map(document.getElementById('map'),{
+        zoom: 11,
+        center: myLatlng
+    });
+    
+});
