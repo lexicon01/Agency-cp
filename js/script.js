@@ -184,3 +184,70 @@ $(window).on('load', function () {
         infowindow.open(map, marker);
     });
 });
+
+/*=============================================
+               End of google map
+/*=============================================*/
+
+/*=============================================
+               Navigation
+/*=============================================*/
+
+/* show & High white navigation */
+
+$(function () {
+    // show/hide nav on page load
+    showHideNav();// 
+    
+    $(window).scroll(function () {
+       //show/ hide nav on window's scrool
+        showHideNav();// without this way 
+    });
+    
+    function showHideNav() {
+         let position = $(window).scrollTop();
+        if (position > 71) {
+
+            // show white nav 
+            $('nav').addClass('white-nav-top');
+
+            // show dark logo
+            $('.navbar-brand img').attr('src', 'img/solo-images/logo/logo-dark.png');
+        } else {
+
+            // Hide white nav 
+            $('nav').removeClass('white-nav-top');
+
+            // show togo
+            $('.navbar-brand img').attr('src', 'img/solo-images/logo/logo.png');
+        }
+    }
+});
+
+/*=============================================
+               scroll spy 
+/*=============================================*/
+/*$(document).ready(function () {
+    $('[data-spy="scroll"]').each(function () {
+        var $spy = $(this).scrollspy('refresh')
+    });
+});*/
+/*=============================================
+               smooth scrolling
+/*=============================================*/
+
+$(function() {
+    $('a.smooth-scroll').click(function (event) {
+        event.preventDefault();
+        
+        // get section id linke #about, #service, #team and etc.
+        var section_id = $(this).attr('href');
+    
+        $('html, body').animate({
+            scrollTop: $(section_id).offset().top - 30
+        }, 1250);
+    });
+});
+
+
+
