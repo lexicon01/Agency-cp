@@ -4,7 +4,7 @@ body {
     height: 100%;
     font-size: 62.5%;
     position: relative;
-/*
+    /*
     overflow: scroll; Adding this breaks the cust/ css for scroll jquery
 */
 }
@@ -202,6 +202,19 @@ section {
 
 /*End of white btn */
 /*End of Button*/
+
+
+/* Back to top butn */
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+    display: none;
+}
 
 /* Arrow Down */
 #arrow-down {
@@ -1402,7 +1415,7 @@ ul.office-details li i {
 footer {
     background: #212226;
     padding: 3rem;
-    
+
 }
 
 footer p {
@@ -1428,7 +1441,7 @@ footer p span {
 /* Header
 /*************************************************************/
 .navbar {
-    padding: 1rem 0 2rem 0 ;
+    padding: 1rem 0 2rem 0;
     transition: all .2s linear;
 }
 
@@ -1462,14 +1475,14 @@ ul.navbar-nav > li > a:focus {
     background: #fff;
     padding: 10px 0;
     box-shadow: 0 80x 5px -9px #999;
-    z-index: 2 ;
+    z-index: 2;
 }
 
-.white-nav-top ul.navbar-nav >li > a {
+.white-nav-top ul.navbar-nav > li > a {
     color: #212226 !important;
 }
 
-.white-nav-top ul.navbar-nav >li > a:hover {
+.white-nav-top ul.navbar-nav > li > a:hover {
     color: #f4c613 !important;
 }
 
@@ -1477,9 +1490,9 @@ ul.navbar-nav > li > a:focus {
 /* end */
 
 
-.nav-link.active{
+.nav-link.active {
 
-    color:#f4c613 !important;
+    color: #f4c613 !important;
 
     font-weight: bolder !important;
 
@@ -1497,9 +1510,7 @@ ul.navbar-nav > li > a:focus {
 */
 
 
-.white-nav-top ul.navbar-nav > li.nav-item > a.nav-link.active
- {
+.white-nav-top ul.navbar-nav > li.nav-item > a.nav-link.active {
     color: #f4c613 !important;
     font-weight: 500;
 }
-

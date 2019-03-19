@@ -197,15 +197,15 @@ $(window).on('load', function () {
 
 $(function () {
     // show/hide nav on page load
-    showHideNav();// 
-    
+    showHideNav(); // 
+
     $(window).scroll(function () {
-       //show/ hide nav on window's scrool
-        showHideNav();// without this way 
+        //show/ hide nav on window's scrool
+        showHideNav(); // without this way 
     });
-    
+
     function showHideNav() {
-         let position = $(window).scrollTop();
+        let position = $(window).scrollTop();
         if (position > 71) {
 
             // show white nav 
@@ -213,6 +213,9 @@ $(function () {
 
             // show dark logo
             $('.navbar-brand img').attr('src', 'img/solo-images/logo/logo-dark.png');
+
+            // show back to top button
+            $('#back-to-top').fadeIn();
         } else {
 
             // Hide white nav 
@@ -220,6 +223,9 @@ $(function () {
 
             // show togo
             $('.navbar-brand img').attr('src', 'img/solo-images/logo/logo.png');
+
+            // hide btn back to top
+            $('#back-to-top').fadeOut();
         }
     }
 });
@@ -236,18 +242,15 @@ $(function () {
                smooth scrolling
 /*=============================================*/
 
-$(function() {
+$(function () {
     $('a.smooth-scroll').click(function (event) {
         event.preventDefault();
-        
+
         // get section id linke #about, #service, #team and etc.
         var section_id = $(this).attr('href');
-    
+
         $('html, body').animate({
             scrollTop: $(section_id).offset().top - 30
-        }, 1250);
+        }, 1250, "easeInOutExpo");
     });
 });
-
-
-
