@@ -1338,7 +1338,7 @@ ul.office-details {
 ul.office-details li {
     font-family: "Open Sans", sans-serif;
     margin-top: 12px;
-    display: flex;
+    display: inline-flex;
     /*holy shit.. this fixed the align issue take off n ull see*/
     font-size: 1.3rem;
 }

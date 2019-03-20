@@ -1,0 +1,161 @@
+/*=============================================
+               Bootstrap 4 media queries
+/*=============================================*/
+/* extra large screen desktops chea we out chere */
+@media (min-width: 2200px){
+    .navbar-brand {
+        padding-left: 45rem;
+    }
+    
+    .navbar {
+        padding-top: 5rem;
+    }
+}
+
+/* medium Devices (landscape tablets and medium desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* Generic */
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+    
+    /* Services 02 */
+    #services-tabs .tab-bg {
+        padding: 16px 30px;
+        min-height: 395px;
+    }
+    
+    .services-tab .tab-bg {
+        line-height: 20px;
+    }
+}
+
+/* small Devices (portrait tablets and small desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .navbar-toggler {
+        border: 1px solid #fff;
+        background-color: lightgray;
+    }
+    
+    #home-heading h1 {
+        font-size: 41px;
+    }
+    
+    #home-text p{
+        font-size: 13px
+    }
+    
+    .btn-general {
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+    }
+    
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+    
+    #tech-statement h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    /* services 02 */
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    .r-tabs-accordion-title a {
+        font-family: "Raleway", sans-serif;
+        font-size: 1.5rem;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .r-tabs-state-active a {
+        color: #f4c613;
+        font-weight: 700;
+        border-bottom: 3px solid #f4c613;
+        padding-bottom: 5px;
+        transition: color, border-bottom .3s linear;
+    }
+    
+    
+/*=============================================
+               services hack had to fix my self.. 
+/*=============================================*/
+    /* Services 02 */
+    #services-tabs .tab-bg {
+        padding: 13px 30px;
+        min-height: auto;
+    }
+    
+    .service-tab h3 {
+        margin-bottom: 5px;
+    }
+    .service-tab p {
+        margin-bottom: 5px;
+    }
+    .service-tab h2 {
+        margin-bottom: 0;
+        
+    }
+    
+ /*=============================================
+               End of service hack
+/*=============================================*/
+    
+    /*pricing section */
+    .pricing-table .price h2 {
+        margin: 0 0 0 6px;
+        font-size: 35px;
+    }
+    
+    /*blog section*/
+    .blog-post .post-meta p{
+        line-height: 14px;
+    }
+    
+    a#back-to-top {
+        display: none;
+    }
+}
+
+/* extra small Devices (portrait tablets and ex small desktops) */
+@media  (max-width: 767px) {
+    
+        .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    .r-tabs-accordion-title a {
+        font-family: "Raleway", sans-serif;
+        font-size: 1.5rem;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .r-tabs-state-active a {
+        color: #f4c613;
+        font-weight: 700;
+        border-bottom: 3px solid #f4c613;
+        padding-bottom: 5px;
+        transition: color, border-bottom .3s linear;
+    }
+}
+
+/*===============================================
+            responsive back to top btn
+=================================================*/
+

@@ -18,7 +18,16 @@ $(function () {
         nav: true,
         margin: 15,
         dots: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            // breakpoint from 480- up
+            480: {
+                items: 2
+            }
+        }
     });
 });
 
@@ -230,6 +239,16 @@ $(function () {
     }
 });
 
+/* btn attempt */
+$(window).resize(function() {
+    let position = $(this).width();
+    console.log(position);
+    if (position < 750) {
+        $('#back-to-top').hide();
+    } else {
+        $('#back-to-top').show();
+    }
+});
 /*=============================================
                scroll spy 
 /*=============================================*/
