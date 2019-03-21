@@ -240,7 +240,7 @@ $(function () {
 });
 
 /* btn attempt */
-$(window).resize(function() {
+/*$(window).resize(function() {
     let position = $(this).width();
     console.log(position);
     if (position < 750) {
@@ -248,6 +248,25 @@ $(window).resize(function() {
     } else {
         $('#back-to-top').show();
     }
+});*/
+/* success!! it  worked */
+$(document).ready(function(){
+
+     function updateContainers(){
+          var currentWidth = window.innerWidth;
+         var position = $(window).width();
+          if(position < 720 && currentWidth < 720){
+             $('#back-to-top').hide(); //code here
+          } else{
+              $('#back-to-top').show(); //width greater than 1024px
+          }
+     }
+
+     updateContainers();
+
+     $(window).resize(function(){
+          updateContainers();
+     });
 });
 /*=============================================
                scroll spy 
