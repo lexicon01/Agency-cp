@@ -255,7 +255,7 @@ $(document).ready(function(){
      function updateContainers(){
           var currentWidth = window.innerWidth;
          var position = $(window).width();
-          if(position < 720 && currentWidth < 720){
+          if(position < 767 && currentWidth < 720){
              $('#back-to-top').hide(); //code here
           } else{
               $('#back-to-top').show(); //width greater than 1024px
