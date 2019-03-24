@@ -3,7 +3,7 @@ html,
 body {
     height: 100%;
     font-size: 62.5%;
-    position: relative;
+    
     /*
     overflow: scroll; Adding this breaks the cust/ css for scroll jquery
 */
@@ -21,10 +21,7 @@ body {
 }
 
 /********************************************/
-body {
-    color: #212226;
 
-}
 
 h1,
 h2,
