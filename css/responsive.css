@@ -287,6 +287,8 @@
         font-size: 18px;
     }
 
+
+
     /* Team section */
 
     #team-left .vertical-heading {
@@ -464,6 +466,11 @@
 
     .testimonial .stars {
         font-size: 14px;
+    }
+
+    /* Tech statement */
+    #tech-statement h3 {
+        font-size: 18px;
     }
 
     /* Service section */
