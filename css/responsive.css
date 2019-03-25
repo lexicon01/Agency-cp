@@ -193,11 +193,6 @@
         margin-right: 15px;
     }
 
-    /*back to top btn */
-    .btn-back-to-top {
-        visibility: hidden;
-        display: none;
-    }
 
     /*Home */
     #home-heading h1 {
@@ -215,14 +210,33 @@
         padding: 8px 25px 6px 25px;
         font-size: 10px;
     }
+    
+    .stats-item {
+        margin-bottom: 20px;
+        padding: 25px 5px;
+    }
+    
+    .stats-item i {
+        font-size: 30px;
+    }
+    
+    .stats-item h3 {
+        font-size: 24px;
+    }
 
     /*===============================================
             About section
 =================================================*/
 }
 
+@media (min-width: 575px) and (max-width: 767px) {
 
-
+    /*back to top btn */
+    .btn-back-to-top {
+        visibility: hidden;
+        display: none;
+    }
+}
 
 
 /*===============================================
@@ -393,6 +407,45 @@
         margin-right: 3rem;
     }
 
+      /*back to top btn */
+    .btn-back-to-top {
+        visibility: hidden;
+        display: none;
+    }
+    
+    .stats-item i {
+        font-size: 30px;
+    }
+
+    .stats-item h3 {
+        font-size: 24px;
+    }
+    
+     /* Contact */
+
+    #contact-left {
+        text-align: center;
+    }
+
+    .office {
+        margin-bottom: 40px;
+    }
+
+    ul.office-details li {
+        display: block;
+        margin-top: 25px;
+    }
+
+    ul.office-details li i {
+        /* rewatch this good stuff*/
+        width: auto;
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    ul.social-list {
+        margin-bottom: 40px;
+    }
 
 }
 
@@ -530,5 +583,21 @@
     ul.social-list {
         margin-bottom: 40px;
     }
+    
+      /*back to top btn */
+    .btn-back-to-top {
+        visibility: hidden;
+        display: none;
+    }
+    
+    /* Stats */
+    .stats-item i {
+        font-size: 30px;
+    }
+
+    .stats-item h3 {
+        font-size: 24px;
+    }
+
 
 }
