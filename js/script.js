@@ -201,6 +201,14 @@ $(window).on('load', function () {
     marker.addListener('click', function () {
         infowindow.open(map, marker);
     });
+    
+    google.maps.event.addDomListener(window, 'resize', function() {
+        
+        var center = map.getCenter();
+        google.maps.event.trigger(map, 'resize');
+        map.setCenter(center);
+    });
+    
 });
 
 /*=============================================
