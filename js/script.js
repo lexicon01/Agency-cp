@@ -232,8 +232,8 @@ $(function () {
     });
 
     function showHideNav() {
-        
-        if ($(window).scrollTop() > 71) {
+        let position = $(window).scrollTop();
+        if (position > 71) {
 
             // show white nav 
             $('#navbar1').addClass('white-nav-top');
@@ -377,3 +377,22 @@ $(function () {
         $('#mobile-nav').css('height', '0%');
     });
 });
+
+/*****************************************************
+ Animate css
+ *****************************************************/
+// animate on scroll
+$(function () {
+    new WOW().init();
+});
+
+/* home animation on page load */
+
+$(window).on('load', function() {
+    $('#home-heading-1').addClass('animated fadeInDown');
+    $('#home-heading-2').addClass('animated fadeInLeft');
+    $('#home-text').addClass('animated zoomIn');
+    $('#home-btn').addClass('animated zoomIn');
+    $('#arrow-down i').addClass('animated fadeInDown infinite');
+});
+
