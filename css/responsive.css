@@ -1,3 +1,87 @@
+/*************************************************************
+                Mobile Menu 
+**************************************************************/
+
+.navb-h {
+    position: relative;
+}
+
+#mobile-nav-open-btn {
+    font-size: 30px;
+    color: #f4c613;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    display: none;
+}
+
+#mobile-nav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, .9);
+    transition: all .3s linear;
+    overflow-y: hidden;
+}
+
+#mobile-nav-close-btn {
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    color: 212226;
+    cursor: pointer;
+    font-weight: 400;
+    position: absolute;
+    top: -9px;
+    right: 13px;
+    transition: .3s;
+}
+
+#mobile-nav-content {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    top: 10%;
+}
+
+#mobile-nav ul li {
+    margin-bottom: 20px;
+    color: black;
+}
+
+#mobile-nav a {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #212226;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline;
+    transition: .3s;
+
+}
+
+#mobile-nav a:hover,
+#mobile-nav a:focus,
+#mobile-nav-close-btn:hover,
+#mobile-nav-close-btn:focus {
+    color: #f4c613;
+}
+
+/* Scroll spy active state */
+
+.white-nav-top #mobile-nav ul.nav > li.active > a {
+    color: #f4c613;
+    font-weight: 500;
+}
+
+
+
+
 /*=============================================
                Bootstrap 4 media queries
 /*=============================================*/
@@ -210,18 +294,23 @@
         padding: 8px 25px 6px 25px;
         font-size: 10px;
     }
-    
+
     .stats-item {
         margin-bottom: 20px;
         padding: 25px 5px;
     }
-    
+
     .stats-item i {
         font-size: 30px;
     }
-    
+
     .stats-item h3 {
         font-size: 24px;
+    }
+
+    /*navigation */
+    #mobile-nav-open-btn {
+        display: block;
     }
 
     /*===============================================
@@ -235,6 +324,12 @@
     .btn-back-to-top {
         visibility: hidden;
         display: none;
+    }
+
+
+    /*navigation */
+    #mobile-nav-open-btn {
+        display: block;
     }
 }
 
@@ -407,12 +502,12 @@
         margin-right: 3rem;
     }
 
-      /*back to top btn */
+    /*back to top btn */
     .btn-back-to-top {
         visibility: hidden;
         display: none;
     }
-    
+
     .stats-item i {
         font-size: 30px;
     }
@@ -420,8 +515,8 @@
     .stats-item h3 {
         font-size: 24px;
     }
-    
-     /* Contact */
+
+    /* Contact */
 
     #contact-left {
         text-align: center;
@@ -445,6 +540,11 @@
 
     ul.social-list {
         margin-bottom: 40px;
+    }
+
+    /*navigation */
+    #mobile-nav-open-btn {
+        display: block;
     }
 
 }
@@ -583,13 +683,13 @@
     ul.social-list {
         margin-bottom: 40px;
     }
-    
-      /*back to top btn */
+
+    /*back to top btn */
     .btn-back-to-top {
         visibility: hidden;
         display: none;
     }
-    
+
     /* Stats */
     .stats-item i {
         font-size: 30px;
@@ -597,6 +697,11 @@
 
     .stats-item h3 {
         font-size: 24px;
+    }
+
+    /*navigation */
+    #mobile-nav-open-btn {
+        display: block;
     }
 
 

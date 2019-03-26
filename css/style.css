@@ -3,7 +3,7 @@ html,
 body {
     height: 100%;
     font-size: 62.5%;
-    
+
     /*
     overflow: scroll; Adding this breaks the cust/ css for scroll jquery
 */
@@ -1453,7 +1453,7 @@ ul.navbar-nav li:last-child {
 ul.navbar-nav > li > a {
     padding: 5px 10px 5px 10px;
     font-family: "Raleway", sans-serif;
-    color: #fff !important;
+    color: #fff;
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -1511,4 +1511,3 @@ ul.navbar-nav > li > a:focus {
     color: #f4c613 !important;
     font-weight: 500;
 }
-
