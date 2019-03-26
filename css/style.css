@@ -1473,6 +1473,7 @@ ul.navbar-nav > li > a:focus {
     padding: 10px 0;
     box-shadow: 0 80x 5px -9px #999;
     z-index: 2;
+    
 }
 
 .white-nav-top ul.navbar-nav > li > a {
@@ -1496,15 +1497,11 @@ ul.navbar-nav > li > a:focus {
 }
 
 
-/*
-.white-nav-top .nav-link.active{
+/* nav links edits */
 
-    color:#f4c613 !important;
-
-    font-weight: bolder !important;
-
+#navDrop .nav-item .nav-link {
+    color: #fff;
 }
-*/
 
 
 .white-nav-top ul.navbar-nav > li.nav-item > a.nav-link.active {

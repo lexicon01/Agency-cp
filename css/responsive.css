@@ -2,8 +2,8 @@
                 Mobile Menu 
 **************************************************************/
 
-.navb-h {
-    position: relative;
+.navbar-header {
+    position: ;
 }
 
 #mobile-nav-open-btn {
@@ -18,7 +18,7 @@
 }
 
 #mobile-nav {
-    height: 100%;
+    height: 0%;
     width: 100%;
     position: fixed;
     top: 0;
@@ -36,15 +36,15 @@
     cursor: pointer;
     font-weight: 400;
     position: absolute;
-    top: -9px;
-    right: 13px;
+    top: -33px;
+    right: 14px;
     transition: .3s;
 }
 
 #mobile-nav-content {
     text-align: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
     position: relative;
     top: 10%;
 }

@@ -221,6 +221,7 @@ $(window).on('load', function () {
 
 /* show & High white navigation */
 
+
 $(function () {
     // show/hide nav on page load
     showHideNav(); // 
@@ -231,11 +232,11 @@ $(function () {
     });
 
     function showHideNav() {
-        let position = $(window).scrollTop();
-        if (position > 71) {
+        
+        if ($(window).scrollTop() > 71) {
 
             // show white nav 
-            $('nav').addClass('white-nav-top');
+            $('#navbar1').addClass('white-nav-top');
 
             // show dark logo
             $('.navbar-brand img').attr('src', 'img/solo-images/logo/logo-dark.png');
@@ -245,7 +246,7 @@ $(function () {
         } else {
 
             // Hide white nav 
-            $('nav').removeClass('white-nav-top');
+            $('#navbar1').removeClass('white-nav-top');
 
             // show togo
             $('.navbar-brand img').attr('src', 'img/solo-images/logo/logo.png');
@@ -255,6 +256,54 @@ $(function () {
         }
     }
 });
+
+
+/*****************************************
+course files nav problem
+********************************************/
+
+/* =========================================
+              Navigation
+============================================ */
+
+/* Show & Hide White Navigation */
+/*$(function () {
+
+    // show/hide nav on page load
+    showHideNav();
+
+    $(window).scroll(function () {
+
+        // show/hide nav on window's scroll
+        showHideNav();
+    });
+
+    function showHideNav() {
+
+        if ($(window).scrollTop() > 50) {
+
+            // Show white nav
+            $("nav").addClass("white-nav-top");
+
+            // Show dark logo
+            $(".navbar-brand img").attr("src", "img/solo-images/logo/logo-dark.png");
+
+            // Show back to top button
+            $("#back-to-top").fadeIn();
+
+        } else {
+
+            // Hide white nav
+            $("nav").removeClass("white-nav-top");
+
+            // Show logo
+            $(".navbar-brand img").attr("src", "img/solo-images/logo/logo.png");
+
+            // Hide back to top button
+            $("#back-to-top").fadeOut();
+        }
+    }
+});*/
 
 /* btn attempt */
 /*$(window).resize(function() {
@@ -267,7 +316,7 @@ $(function () {
     }
 });*/
 /* success!! it  worked */
-$(document).ready(function(){
+/*$(document).ready(function(){
 
      function updateContainers(){
           var currentWidth = window.innerWidth;
@@ -284,7 +333,7 @@ $(document).ready(function(){
      $(window).resize(function(){
           updateContainers();
      });
-});
+});*/
 /*=============================================
                scroll spy 
 /*=============================================*/
@@ -307,5 +356,24 @@ $(function () {
         $('html, body').animate({
             scrollTop: $(section_id).offset().top - 30
         }, 1250, "easeInOutExpo");
+    });
+});
+
+/****************************************************
+    Mobile Menu 
+*****************************************************/
+
+$(function () {
+   
+    // show mobile nav
+    $('#mobile-nav-open-btn').click(function() {
+        
+        $('#mobile-nav').css('height', '100%');
+    });
+    
+        // hide mobile nav
+    $('#mobile-nav-close-btn, #mobile-nav a').click(function() {
+        
+        $('#mobile-nav').css('height', '0%');
     });
 });
