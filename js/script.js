@@ -42,7 +42,7 @@ $(function () {
 
             $(this).animate({
                 width: $(this).attr("aria-valuenow") + "%"
-            }, 1000);
+            }, 2000);
         });
         this.destroy();
 
