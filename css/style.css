@@ -4,10 +4,12 @@ body {
     height: 100%;
     font-size: 62.5%;
 
-
+    /*
+    overflow: scroll; Adding this breaks the cust/ css for scroll jquery disregard this
+*/
 }
 
-}
+
 
 /**********************************************/
 /* media query for body, html font-sizes */
@@ -475,7 +477,7 @@ section {
     }
 }
 
-@media only (max-width: 320px) {
+@media (max-width: 320px) {
     .team-member-info {
         padding: 1rem 0;
 
