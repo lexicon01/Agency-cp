@@ -1372,7 +1372,7 @@
                     <div class="col-md-6">
                         <!-- Contact Right -->
                         <div id="contact-right">
-                            <form action="https://www.elformo.com/forms/0692446a-e8f9-439a-b018-c77f4ed0536e" method="post" accept-charset="UTF-8">
+                            <form id="invisible-recaptcha-form" accept-charset="UTF-8" action="https://usebasin.com/f/ee04bf95fcf7" method="POST">
                                 <h4>Send Message</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, adipisci.</p>
                                 <div class="row">
@@ -1403,13 +1403,17 @@
                                 <div class="form-group">
                                     <textarea name="" id="Message" class="form-control" placeholder="Message"></textarea>
                                 </div>
-                                <div class="g-recaptcha" data-sitekey="" data-callback="onSubmit"></div>
+                                <div class="g-recaptcha" data-sitekey="ee04bf95fcf7" data-callback="onSubmit"></div>
                                 <div id="submit-btn">
-                                    <!-- <button title="submit" role="button" class="btn btn-general  btn-yellow">Submit</button> -->
-                                    <input class="btn btn-general  btn-yellow" id="submit" name="submit" type="Submit" />
+                                    <button title="submit" role="button" class="btn btn-general  btn-yellow">Submit</button>
                                 </div>
                             </form>
                   
+                            <form action="https://www.elformo.com/forms/0692446a-e8f9-439a-b018-c77f4ed0536e" method="post" accept-charset="UTF-8">
+                                <input id="email" name="email" type="email" />
+                                <textarea id="comment" name="comment"></textarea>
+                                <input id="submit" name="submit" type="Submit" />
+                              </form>
                         </div>
                     </div>
                 </div>
@@ -1490,7 +1494,7 @@
     <script src="js/counter/jquery.counterup.min.js"></script>
 
     <!-- Google Map API -->
-   <!-- took out my link for map.. shouldnt be online hahah my b -->
+   <!-- took out my link for map.. shouldnt be online hahah my -->
 
     <!-- popperjs -->
     <script src="js/easing/easying.js"></script>
