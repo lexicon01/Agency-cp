@@ -1408,17 +1408,7 @@
                                     <button title="submit" role="button" class="btn btn-general  btn-yellow">Submit</button>
                                 </div>
                             </form>
-                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                            <script>
-                                document.getElementById("invisible-recaptcha-form").addEventListener("submit", function(){
-                                    event.preventDefault();
-                                    grecaptcha.reset();
-                                    grecaptcha.execute();
-                                }, false);
-                                function onSubmit(token) {
-                                    document.getElementById("invisible-recaptcha-form").submit();
-                                }
-                            </script>
+                  
                         </div>
                     </div>
                 </div>
@@ -1460,7 +1450,18 @@
 
 
 
-
+    <!-- email thingy.. tryna make it work-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        document.getElementById("invisible-recaptcha-form").addEventListener("submit", function(){
+            event.preventDefault();
+            grecaptcha.reset();
+            grecaptcha.execute();
+        }, false);
+        function onSubmit(token) {
+            document.getElementById("invisible-recaptcha-form").submit();
+        }
+    </script>
 
 
     <!--  jquery  -->
