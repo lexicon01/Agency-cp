@@ -1414,14 +1414,14 @@
                                 <textarea id="comment" name="comment"></textarea>
                                 <input id="submit" name="submit" type="Submit" />
                               </form>
-                              <iframe id="comntr"
-  referrerpolicy="no-referrer"
-  sandbox="allow-scripts allow-same-origin allow-popups">
-</iframe>
-<script>
-  document.querySelector('#comntr').src =
-    'https://comntr.github.io?tag=FooBar&filter=132c6bace6cfa90b2ade4672bfd3ab518b11ce99' + '#' + location.href;
-</script>
+                              <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6"></script>
+
+<!-- Your embedded comments code -->
+<div class="fb-comment-embed"
+   data-href="https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185"
+   data-width="500"></div>
                         </div>
                     </div>
                 </div>
