@@ -1414,6 +1414,14 @@
                                 <textarea id="comment" name="comment"></textarea>
                                 <input id="submit" name="submit" type="Submit" />
                               </form>
+                              <iframe id="comntr"
+  referrerpolicy="no-referrer"
+  sandbox="allow-scripts allow-same-origin allow-popups">
+</iframe>
+<script>
+  document.querySelector('#comntr').src =
+    'https://comntr.github.io?tag=FooBar&filter=132c6bace6cfa90b2ade4672bfd3ab518b11ce99' + '#' + location.href;
+</script>
                         </div>
                     </div>
                 </div>
